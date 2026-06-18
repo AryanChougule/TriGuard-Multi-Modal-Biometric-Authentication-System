@@ -1,0 +1,14 @@
+# TriGuard preparation utilities requirements
+
+numpy==1.26.4
+opencv-python==4.13.0.90
+ffmpeg-python==0.2.0
+sentencepiece==0.2.1
+scikit-image==0.25.2
+tqdm==4.67.3
+torch==2.7.1+cu118
+torchaudio==2.7.1+cu118
+
+# Required by preparation/asr_infer.py, but not installed in the current auth env.
+# Install the matching Whisper package separately before running ASR preprocessing.
+

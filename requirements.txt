@@ -1,0 +1,30 @@
+# TriGuard Security System requirements
+
+# Core / shared
+numpy==1.26.4
+opencv-python==4.13.0.90
+PyQt5==5.15.11
+pandas==2.2.3
+tqdm==4.67.3
+
+# Face module
+deepface==0.0.79
+mtcnn==1.0.0
+tensorflow==2.21.0
+
+# Voice module
+torch==2.7.1+cu118
+torchaudio==2.7.1+cu118
+torchvision==0.22.1+cu118
+speechbrain==1.1.0
+sounddevice==0.5.5
+scipy==1.15.1
+pytorch-lightning==2.6.5
+sentencepiece==0.2.1
+scikit-image==0.25.2
+
+# Lip module
+mediapipe==0.10.35
+face-alignment==1.5.0
+ffmpeg-python==0.2.0
+

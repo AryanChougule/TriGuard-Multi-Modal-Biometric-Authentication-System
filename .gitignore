@@ -1,0 +1,9 @@
+*.pth
+*.pt
+*.onnx
+*.engine
+*.ckpt
+
+data/lip_weights/
+__pycache__/
+*.pyc

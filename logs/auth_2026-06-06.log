@@ -1,0 +1,545 @@
+2026-06-06 11:46:19  [INFO    ]  root — Logger initialized. Log file: logs/auth_2026-06-06.log
+2026-06-06 11:46:19  [INFO    ]  __main__ — [Main] Starting TriGuard Security System v1.0.0
+2026-06-06 11:46:19  [INFO    ]  __main__ — [Main] Auth threshold: 0.7
+2026-06-06 11:46:19  [ERROR   ]  modules.face_module — [Face] Embeddings file not found: data/face_embeddings/student_embeddings.pkl
+2026-06-06 11:46:19  [ERROR   ]  __main__ — [Main] Failed to load FaceModule: Face embeddings not found at 'data/face_embeddings/student_embeddings.pkl'. Run your enrollment script to generate student_embeddings.pkl.
+2026-06-06 16:03:58  [INFO    ]  root — Logger initialized. Log file: logs/auth_2026-06-06.log
+2026-06-06 16:03:58  [INFO    ]  __main__ — [Main] Starting TriGuard Security System v1.0.0
+2026-06-06 16:03:58  [INFO    ]  __main__ — [Main] Auth threshold: 0.7
+2026-06-06 16:03:58  [INFO    ]  modules.face_module — [Face] Loaded 8 identities from 'data/face_embeddings/student_embeddings.pkl'.
+2026-06-06 16:03:58  [ERROR   ]  __main__ — [Main] Failed to load FaceModule: module 'tensorflow' has no attribute 'keras'
+2026-06-06 16:12:18  [INFO    ]  root — Logger initialized. Log file: logs/auth_2026-06-06.log
+2026-06-06 16:12:18  [INFO    ]  __main__ — [Main] Starting TriGuard Security System v1.0.0
+2026-06-06 16:12:18  [INFO    ]  __main__ — [Main] Auth threshold: 0.7
+2026-06-06 16:12:18  [INFO    ]  modules.face_module — [Face] Loaded 8 identities from 'data/face_embeddings/student_embeddings.pkl'.
+2026-06-06 16:12:47  [DEBUG   ]  tensorflow — Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2026-06-06 16:12:48  [DEBUG   ]  h5py._conv — Creating converter from 7 to 5
+2026-06-06 16:12:48  [DEBUG   ]  h5py._conv — Creating converter from 5 to 7
+2026-06-06 16:12:48  [DEBUG   ]  h5py._conv — Creating converter from 7 to 5
+2026-06-06 16:12:48  [DEBUG   ]  h5py._conv — Creating converter from 5 to 7
+2026-06-06 16:12:52  [DEBUG   ]  jax._src.path — etils.epath was not found. Using pathlib for file I/O.
+2026-06-06 16:12:56  [DEBUG   ]  matplotlib — matplotlib data path: C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\matplotlib\mpl-data
+2026-06-06 16:12:56  [DEBUG   ]  matplotlib — CONFIGDIR=C:\Users\aryan\.matplotlib
+2026-06-06 16:12:56  [DEBUG   ]  matplotlib — interactive is False
+2026-06-06 16:12:56  [DEBUG   ]  matplotlib — platform is win32
+2026-06-06 16:12:56  [DEBUG   ]  matplotlib — CACHEDIR=C:\Users\aryan\.matplotlib
+2026-06-06 16:12:56  [DEBUG   ]  matplotlib.font_manager — Using fontManager instance from C:\Users\aryan\.matplotlib\fontlist-v390.json
+2026-06-06 16:12:57  [INFO    ]  modules.face_module — [Face] MTCNN detector initialized.
+2026-06-06 16:12:57  [INFO    ]  __main__ — [Main] FaceModule loaded.
+2026-06-06 16:13:04  [DEBUG   ]  torio._extension.utils — Loading FFmpeg6
+2026-06-06 16:13:04  [DEBUG   ]  torio._extension.utils — Failed to load FFmpeg6 extension.
+Traceback (most recent call last):
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\_extension\utils.py", line 116, in _find_ffmpeg_extension
+    ext = _find_versionsed_ffmpeg_extension(ffmpeg_ver)
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\_extension\utils.py", line 108, in _find_versionsed_ffmpeg_extension
+    _load_lib(lib)
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\_extension\utils.py", line 94, in _load_lib
+    torch.ops.load_library(path)
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torch\_ops.py", line 1392, in load_library
+    ctypes.CDLL(path)
+  File "C:\Program Files\Python310\lib\ctypes\__init__.py", line 374, in __init__
+    self._handle = _dlopen(self._name, mode)
+FileNotFoundError: Could not find module 'C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\lib\libtorio_ffmpeg6.pyd' (or one of its dependencies). Try using the full path with constructor syntax.
+2026-06-06 16:13:04  [DEBUG   ]  torio._extension.utils — Loading FFmpeg5
+2026-06-06 16:13:04  [DEBUG   ]  torio._extension.utils — Failed to load FFmpeg5 extension.
+Traceback (most recent call last):
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\_extension\utils.py", line 116, in _find_ffmpeg_extension
+    ext = _find_versionsed_ffmpeg_extension(ffmpeg_ver)
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\_extension\utils.py", line 108, in _find_versionsed_ffmpeg_extension
+    _load_lib(lib)
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\_extension\utils.py", line 94, in _load_lib
+    torch.ops.load_library(path)
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torch\_ops.py", line 1392, in load_library
+    ctypes.CDLL(path)
+  File "C:\Program Files\Python310\lib\ctypes\__init__.py", line 374, in __init__
+    self._handle = _dlopen(self._name, mode)
+FileNotFoundError: Could not find module 'C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\lib\libtorio_ffmpeg5.pyd' (or one of its dependencies). Try using the full path with constructor syntax.
+2026-06-06 16:13:04  [DEBUG   ]  torio._extension.utils — Loading FFmpeg4
+2026-06-06 16:13:04  [DEBUG   ]  torio._extension.utils — Failed to load FFmpeg4 extension.
+Traceback (most recent call last):
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\_extension\utils.py", line 116, in _find_ffmpeg_extension
+    ext = _find_versionsed_ffmpeg_extension(ffmpeg_ver)
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\_extension\utils.py", line 108, in _find_versionsed_ffmpeg_extension
+    _load_lib(lib)
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\_extension\utils.py", line 94, in _load_lib
+    torch.ops.load_library(path)
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torch\_ops.py", line 1392, in load_library
+    ctypes.CDLL(path)
+  File "C:\Program Files\Python310\lib\ctypes\__init__.py", line 374, in __init__
+    self._handle = _dlopen(self._name, mode)
+FileNotFoundError: Could not find module 'C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\lib\libtorio_ffmpeg4.pyd' (or one of its dependencies). Try using the full path with constructor syntax.
+2026-06-06 16:13:04  [DEBUG   ]  torio._extension.utils — Loading FFmpeg
+2026-06-06 16:13:04  [DEBUG   ]  torio._extension.utils — Failed to load FFmpeg extension.
+Traceback (most recent call last):
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\_extension\utils.py", line 116, in _find_ffmpeg_extension
+    ext = _find_versionsed_ffmpeg_extension(ffmpeg_ver)
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\_extension\utils.py", line 106, in _find_versionsed_ffmpeg_extension
+    raise RuntimeError(f"FFmpeg{version} extension is not available.")
+RuntimeError: FFmpeg extension is not available.
+2026-06-06 16:13:10  [INFO    ]  speechbrain.utils.quirks — Applied quirks (see `speechbrain.utils.quirks`): [allow_tf32, disable_jit_profiling]
+2026-06-06 16:13:10  [INFO    ]  speechbrain.utils.quirks — Excluded quirks specified by the `SB_DISABLE_QUIRKS` environment (comma-separated list): []
+2026-06-06 16:13:10  [INFO    ]  modules.voice_module — [Voice] Loading ECAPA-TDNN model on cuda:0...
+2026-06-06 16:13:10  [INFO    ]  speechbrain.utils.fetching — Fetch hyperparams.yaml: Fetching from HuggingFace Hub 'speechbrain/spkrec-ecapa-voxceleb' if not cached
+2026-06-06 16:13:10  [DEBUG   ]  httpcore.connection — connect_tcp.started host='huggingface.co' port=443 local_address=None timeout=10 socket_options=None
+2026-06-06 16:13:10  [DEBUG   ]  httpcore.connection — connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001DAB9684E20>
+2026-06-06 16:13:10  [DEBUG   ]  httpcore.connection — start_tls.started ssl_context=<ssl.SSLContext object at 0x000001DAB94C38C0> server_hostname='huggingface.co' timeout=10
+2026-06-06 16:13:10  [DEBUG   ]  httpcore.connection — start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001DAB9684DF0>
+2026-06-06 16:13:10  [DEBUG   ]  httpcore.http11 — send_request_headers.started request=<Request [b'HEAD']>
+2026-06-06 16:13:10  [DEBUG   ]  httpcore.http11 — send_request_headers.complete
+2026-06-06 16:13:10  [DEBUG   ]  httpcore.http11 — send_request_body.started request=<Request [b'HEAD']>
+2026-06-06 16:13:10  [DEBUG   ]  httpcore.http11 — send_request_body.complete
+2026-06-06 16:13:10  [DEBUG   ]  httpcore.http11 — receive_response_headers.started request=<Request [b'HEAD']>
+2026-06-06 16:13:11  [DEBUG   ]  httpcore.http11 — receive_response_headers.complete return_value=(b'HTTP/1.1', 307, b'Temporary Redirect', [(b'Content-Type', b'text/plain; charset=utf-8'), (b'Content-Length', b'280'), (b'Connection', b'keep-alive'), (b'Date', b'Sat, 06 Jun 2026 10:43:10 GMT'), (b'Location', b'/api/resolve-cache/models/speechbrain/spkrec-ecapa-voxceleb/0f99f2d0ebe89ac095bcc5903c4dd8f72b367286/hyperparams.yaml?%2Fspeechbrain%2Fspkrec-ecapa-voxceleb%2Fresolve%2Fmain%2Fhyperparams.yaml=&etag=%2270e4cd0beb74ca08a2df9de6bd79d938670a4d15%22'), (b'X-Powered-By', b'huggingface-moon'), (b'X-Request-Id', b'Root=1-6a23f9be-0595c58e48a613111e12a3cf;78026718-d7dc-4203-b840-ac764cda7526'), (b'RateLimit', b'"resolvers";r=2999;t=54'), (b'RateLimit-Policy', b'"fixed window";"resolvers";q=3000;w=300'), (b'cross-origin-opener-policy', b'same-origin'), (b'Referrer-Policy', b'strict-origin-when-cross-origin'), (b'Access-Control-Max-Age', b'86400'), (b'Access-Control-Allow-Origin', b'https://huggingface.co'), (b'Vary', b'Origin, Accept'), (b'Access-Control-Expose-Headers', b'X-Repo-Commit,X-Request-Id,X-Error-Code,X-Error-Message,X-Total-Count,ETag,Link,Accept-Ranges,Content-Range,X-Linked-Size,X-Linked-ETag,X-Xet-Hash'), (b'X-Repo-Commit', b'0f99f2d0ebe89ac095bcc5903c4dd8f72b367286'), (b'Accept-Ranges', b'bytes'), (b'X-Hub-Cache', b'MISS'), (b'Content-Disposition', b'inline; filename*=UTF-8\'\'hyperparams.yaml; filename="hyperparams.yaml";'), (b'Content-Security-Policy', b"default-src 'none'; sandbox"), (b'X-Linked-ETag', b'"70e4cd0beb74ca08a2df9de6bd79d938670a4d15"'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 abf1eb055e021fa76f5b3cc60396ccc4.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'BOM78-P10'), (b'X-Amz-Cf-Id', b'Zg7h_v0afDMrJZU0ETeFpyc9PtHF8wkADwYjqReHoDhswX2Lo-CkMQ==')])
+2026-06-06 16:13:11  [INFO    ]  httpx — HTTP Request: HEAD https://huggingface.co/speechbrain/spkrec-ecapa-voxceleb/resolve/main/hyperparams.yaml "HTTP/1.1 307 Temporary Redirect"
+2026-06-06 16:13:11  [DEBUG   ]  httpcore.http11 — receive_response_body.started request=<Request [b'HEAD']>
+2026-06-06 16:13:11  [DEBUG   ]  httpcore.http11 — receive_response_body.complete
+2026-06-06 16:13:11  [DEBUG   ]  httpcore.http11 — response_closed.started
+2026-06-06 16:13:11  [DEBUG   ]  httpcore.http11 — response_closed.complete
+2026-06-06 16:13:11  [DEBUG   ]  httpcore.http11 — send_request_headers.started request=<Request [b'HEAD']>
+2026-06-06 16:13:11  [DEBUG   ]  httpcore.http11 — send_request_headers.complete
+2026-06-06 16:13:11  [DEBUG   ]  httpcore.http11 — send_request_body.started request=<Request [b'HEAD']>
+2026-06-06 16:13:11  [DEBUG   ]  httpcore.http11 — send_request_body.complete
+2026-06-06 16:13:11  [DEBUG   ]  httpcore.http11 — receive_response_headers.started request=<Request [b'HEAD']>
+2026-06-06 16:13:11  [DEBUG   ]  httpcore.http11 — receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'text/plain; charset=utf-8'), (b'Content-Length', b'1919'), (b'Connection', b'keep-alive'), (b'Date', b'Sat, 03 Jan 2026 10:10:27 GMT'), (b'ETag', b'"70e4cd0beb74ca08a2df9de6bd79d938670a4d15"'), (b'X-Powered-By', b'huggingface-moon'), (b'X-Request-Id', b'Root=1-6958eb13-4d15de1a0438a84944f2cce6'), (b'RateLimit', b'"resolvers";r=2999;t=241'), (b'RateLimit-Policy', b'"fixed window";"resolvers";q=3000;w=300'), (b'cross-origin-opener-policy', b'same-origin'), (b'Referrer-Policy', b'strict-origin-when-cross-origin'), (b'Access-Control-Max-Age', b'86400'), (b'Access-Control-Allow-Origin', b'https://huggingface.co'), (b'Access-Control-Expose-Headers', b'X-Repo-Commit,X-Request-Id,X-Error-Code,X-Error-Message,X-Total-Count,ETag,Link,Accept-Ranges,Content-Range,X-Linked-Size,X-Linked-ETag,X-Xet-Hash'), (b'X-Repo-Commit', b'0f99f2d0ebe89ac095bcc5903c4dd8f72b367286'), (b'Accept-Ranges', b'bytes'), (b'Content-Disposition', b'inline; filename*=UTF-8\'\'hyperparams.yaml; filename="hyperparams.yaml";'), (b'Content-Security-Policy', b"default-src 'none'; sandbox"), (b'Vary', b'Origin'), (b'X-Cache', b'Hit from cloudfront'), (b'Via', b'1.1 abf1eb055e021fa76f5b3cc60396ccc4.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'BOM78-P10'), (b'X-Amz-Cf-Id', b'jbm-a1us8oBngvMWa3cfu9naGr30NgefWqgzj16tqYq-pNTzWterYg=='), (b'Age', b'13307562')])
+2026-06-06 16:13:11  [INFO    ]  httpx — HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/speechbrain/spkrec-ecapa-voxceleb/0f99f2d0ebe89ac095bcc5903c4dd8f72b367286/hyperparams.yaml "HTTP/1.1 200 OK"
+2026-06-06 16:13:11  [DEBUG   ]  httpcore.http11 — receive_response_body.started request=<Request [b'HEAD']>
+2026-06-06 16:13:11  [DEBUG   ]  httpcore.http11 — receive_response_body.complete
+2026-06-06 16:13:11  [DEBUG   ]  httpcore.http11 — response_closed.started
+2026-06-06 16:13:11  [DEBUG   ]  httpcore.http11 — response_closed.complete
+2026-06-06 16:13:11  [ERROR   ]  __main__ — [Main] Failed to load VoiceModule: [WinError 1314] A required privilege is not held by the client: 'C:\\Users\\aryan\\.cache\\huggingface\\hub\\models--speechbrain--spkrec-ecapa-voxceleb\\snapshots\\0f99f2d0ebe89ac095bcc5903c4dd8f72b367286\\hyperparams.yaml' -> 'C:\\Users\\aryan\\OneDrive\\Desktop\\work\\full_auth\\system_main\\data\\pretrained_models\\spkrec-ecapa-voxceleb\\hyperparams.yaml'
+2026-06-06 16:13:11  [DEBUG   ]  httpcore.connection — close.started
+2026-06-06 16:13:11  [DEBUG   ]  httpcore.connection — close.complete
+2026-06-06 16:13:27  [INFO    ]  root — Logger initialized. Log file: logs/auth_2026-06-06.log
+2026-06-06 16:13:27  [INFO    ]  __main__ — [Main] Starting TriGuard Security System v1.0.0
+2026-06-06 16:13:27  [INFO    ]  __main__ — [Main] Auth threshold: 0.7
+2026-06-06 16:13:27  [INFO    ]  modules.face_module — [Face] Loaded 8 identities from 'data/face_embeddings/student_embeddings.pkl'.
+2026-06-06 16:13:28  [DEBUG   ]  tensorflow — Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2026-06-06 16:13:28  [DEBUG   ]  h5py._conv — Creating converter from 7 to 5
+2026-06-06 16:13:28  [DEBUG   ]  h5py._conv — Creating converter from 5 to 7
+2026-06-06 16:13:28  [DEBUG   ]  h5py._conv — Creating converter from 7 to 5
+2026-06-06 16:13:28  [DEBUG   ]  h5py._conv — Creating converter from 5 to 7
+2026-06-06 16:13:28  [DEBUG   ]  jax._src.path — etils.epath was not found. Using pathlib for file I/O.
+2026-06-06 16:13:30  [DEBUG   ]  matplotlib — matplotlib data path: C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\matplotlib\mpl-data
+2026-06-06 16:13:30  [DEBUG   ]  matplotlib — CONFIGDIR=C:\Users\aryan\.matplotlib
+2026-06-06 16:13:30  [DEBUG   ]  matplotlib — interactive is False
+2026-06-06 16:13:30  [DEBUG   ]  matplotlib — platform is win32
+2026-06-06 16:13:30  [DEBUG   ]  matplotlib — CACHEDIR=C:\Users\aryan\.matplotlib
+2026-06-06 16:13:30  [DEBUG   ]  matplotlib.font_manager — Using fontManager instance from C:\Users\aryan\.matplotlib\fontlist-v390.json
+2026-06-06 16:13:30  [INFO    ]  modules.face_module — [Face] MTCNN detector initialized.
+2026-06-06 16:13:30  [INFO    ]  __main__ — [Main] FaceModule loaded.
+2026-06-06 16:13:32  [DEBUG   ]  torio._extension.utils — Loading FFmpeg6
+2026-06-06 16:13:32  [DEBUG   ]  torio._extension.utils — Failed to load FFmpeg6 extension.
+Traceback (most recent call last):
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\_extension\utils.py", line 116, in _find_ffmpeg_extension
+    ext = _find_versionsed_ffmpeg_extension(ffmpeg_ver)
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\_extension\utils.py", line 108, in _find_versionsed_ffmpeg_extension
+    _load_lib(lib)
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\_extension\utils.py", line 94, in _load_lib
+    torch.ops.load_library(path)
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torch\_ops.py", line 1392, in load_library
+    ctypes.CDLL(path)
+  File "C:\Program Files\Python310\lib\ctypes\__init__.py", line 374, in __init__
+    self._handle = _dlopen(self._name, mode)
+FileNotFoundError: Could not find module 'C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\lib\libtorio_ffmpeg6.pyd' (or one of its dependencies). Try using the full path with constructor syntax.
+2026-06-06 16:13:32  [DEBUG   ]  torio._extension.utils — Loading FFmpeg5
+2026-06-06 16:13:32  [DEBUG   ]  torio._extension.utils — Failed to load FFmpeg5 extension.
+Traceback (most recent call last):
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\_extension\utils.py", line 116, in _find_ffmpeg_extension
+    ext = _find_versionsed_ffmpeg_extension(ffmpeg_ver)
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\_extension\utils.py", line 108, in _find_versionsed_ffmpeg_extension
+    _load_lib(lib)
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\_extension\utils.py", line 94, in _load_lib
+    torch.ops.load_library(path)
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torch\_ops.py", line 1392, in load_library
+    ctypes.CDLL(path)
+  File "C:\Program Files\Python310\lib\ctypes\__init__.py", line 374, in __init__
+    self._handle = _dlopen(self._name, mode)
+FileNotFoundError: Could not find module 'C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\lib\libtorio_ffmpeg5.pyd' (or one of its dependencies). Try using the full path with constructor syntax.
+2026-06-06 16:13:32  [DEBUG   ]  torio._extension.utils — Loading FFmpeg4
+2026-06-06 16:13:32  [DEBUG   ]  torio._extension.utils — Failed to load FFmpeg4 extension.
+Traceback (most recent call last):
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\_extension\utils.py", line 116, in _find_ffmpeg_extension
+    ext = _find_versionsed_ffmpeg_extension(ffmpeg_ver)
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\_extension\utils.py", line 108, in _find_versionsed_ffmpeg_extension
+    _load_lib(lib)
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\_extension\utils.py", line 94, in _load_lib
+    torch.ops.load_library(path)
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torch\_ops.py", line 1392, in load_library
+    ctypes.CDLL(path)
+  File "C:\Program Files\Python310\lib\ctypes\__init__.py", line 374, in __init__
+    self._handle = _dlopen(self._name, mode)
+FileNotFoundError: Could not find module 'C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\lib\libtorio_ffmpeg4.pyd' (or one of its dependencies). Try using the full path with constructor syntax.
+2026-06-06 16:13:32  [DEBUG   ]  torio._extension.utils — Loading FFmpeg
+2026-06-06 16:13:32  [DEBUG   ]  torio._extension.utils — Failed to load FFmpeg extension.
+Traceback (most recent call last):
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\_extension\utils.py", line 116, in _find_ffmpeg_extension
+    ext = _find_versionsed_ffmpeg_extension(ffmpeg_ver)
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\_extension\utils.py", line 106, in _find_versionsed_ffmpeg_extension
+    raise RuntimeError(f"FFmpeg{version} extension is not available.")
+RuntimeError: FFmpeg extension is not available.
+2026-06-06 16:13:34  [INFO    ]  speechbrain.utils.quirks — Applied quirks (see `speechbrain.utils.quirks`): [disable_jit_profiling, allow_tf32]
+2026-06-06 16:13:34  [INFO    ]  speechbrain.utils.quirks — Excluded quirks specified by the `SB_DISABLE_QUIRKS` environment (comma-separated list): []
+2026-06-06 16:13:34  [INFO    ]  modules.voice_module — [Voice] Loading ECAPA-TDNN model on cuda:0...
+2026-06-06 16:13:34  [INFO    ]  speechbrain.utils.fetching — Fetch hyperparams.yaml: Fetching from HuggingFace Hub 'speechbrain/spkrec-ecapa-voxceleb' if not cached
+2026-06-06 16:13:34  [DEBUG   ]  httpcore.connection — connect_tcp.started host='huggingface.co' port=443 local_address=None timeout=10 socket_options=None
+2026-06-06 16:13:34  [DEBUG   ]  httpcore.connection — connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020D54354E20>
+2026-06-06 16:13:34  [DEBUG   ]  httpcore.connection — start_tls.started ssl_context=<ssl.SSLContext object at 0x0000020D541978C0> server_hostname='huggingface.co' timeout=10
+2026-06-06 16:13:34  [DEBUG   ]  httpcore.connection — start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020D54354DF0>
+2026-06-06 16:13:34  [DEBUG   ]  httpcore.http11 — send_request_headers.started request=<Request [b'HEAD']>
+2026-06-06 16:13:34  [DEBUG   ]  httpcore.http11 — send_request_headers.complete
+2026-06-06 16:13:34  [DEBUG   ]  httpcore.http11 — send_request_body.started request=<Request [b'HEAD']>
+2026-06-06 16:13:34  [DEBUG   ]  httpcore.http11 — send_request_body.complete
+2026-06-06 16:13:34  [DEBUG   ]  httpcore.http11 — receive_response_headers.started request=<Request [b'HEAD']>
+2026-06-06 16:13:34  [DEBUG   ]  httpcore.http11 — receive_response_headers.complete return_value=(b'HTTP/1.1', 307, b'Temporary Redirect', [(b'Content-Type', b'text/plain; charset=utf-8'), (b'Content-Length', b'280'), (b'Connection', b'keep-alive'), (b'Date', b'Sat, 06 Jun 2026 10:43:34 GMT'), (b'Location', b'/api/resolve-cache/models/speechbrain/spkrec-ecapa-voxceleb/0f99f2d0ebe89ac095bcc5903c4dd8f72b367286/hyperparams.yaml?%2Fspeechbrain%2Fspkrec-ecapa-voxceleb%2Fresolve%2Fmain%2Fhyperparams.yaml=&etag=%2270e4cd0beb74ca08a2df9de6bd79d938670a4d15%22'), (b'X-Powered-By', b'huggingface-moon'), (b'X-Request-Id', b'Root=1-6a23f9d6-04c7b0055877798476ea28ed;3f8bd836-ce32-447b-8817-15c4dd5b846a'), (b'RateLimit', b'"resolvers";r=2998;t=30'), (b'RateLimit-Policy', b'"fixed window";"resolvers";q=3000;w=300'), (b'cross-origin-opener-policy', b'same-origin'), (b'Referrer-Policy', b'strict-origin-when-cross-origin'), (b'Access-Control-Max-Age', b'86400'), (b'Access-Control-Allow-Origin', b'https://huggingface.co'), (b'Vary', b'Origin, Accept'), (b'Access-Control-Expose-Headers', b'X-Repo-Commit,X-Request-Id,X-Error-Code,X-Error-Message,X-Total-Count,ETag,Link,Accept-Ranges,Content-Range,X-Linked-Size,X-Linked-ETag,X-Xet-Hash'), (b'X-Repo-Commit', b'0f99f2d0ebe89ac095bcc5903c4dd8f72b367286'), (b'Accept-Ranges', b'bytes'), (b'X-Hub-Cache', b'HIT'), (b'Content-Disposition', b'inline; filename*=UTF-8\'\'hyperparams.yaml; filename="hyperparams.yaml";'), (b'Content-Security-Policy', b"default-src 'none'; sandbox"), (b'X-Linked-ETag', b'"70e4cd0beb74ca08a2df9de6bd79d938670a4d15"'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 a254b804a514a03398ee1399ef3d47c6.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'BOM78-P10'), (b'X-Amz-Cf-Id', b'jsr6uA3QwAziWIFscImWXAkPIZqjuZwlMv5_kFyLx0yNpzUU5at9ug==')])
+2026-06-06 16:13:34  [INFO    ]  httpx — HTTP Request: HEAD https://huggingface.co/speechbrain/spkrec-ecapa-voxceleb/resolve/main/hyperparams.yaml "HTTP/1.1 307 Temporary Redirect"
+2026-06-06 16:13:34  [DEBUG   ]  httpcore.http11 — receive_response_body.started request=<Request [b'HEAD']>
+2026-06-06 16:13:34  [DEBUG   ]  httpcore.http11 — receive_response_body.complete
+2026-06-06 16:13:34  [DEBUG   ]  httpcore.http11 — response_closed.started
+2026-06-06 16:13:34  [DEBUG   ]  httpcore.http11 — response_closed.complete
+2026-06-06 16:13:34  [DEBUG   ]  httpcore.http11 — send_request_headers.started request=<Request [b'HEAD']>
+2026-06-06 16:13:35  [DEBUG   ]  httpcore.http11 — send_request_headers.complete
+2026-06-06 16:13:35  [DEBUG   ]  httpcore.http11 — send_request_body.started request=<Request [b'HEAD']>
+2026-06-06 16:13:35  [DEBUG   ]  httpcore.http11 — send_request_body.complete
+2026-06-06 16:13:35  [DEBUG   ]  httpcore.http11 — receive_response_headers.started request=<Request [b'HEAD']>
+2026-06-06 16:13:35  [DEBUG   ]  httpcore.http11 — receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'text/plain; charset=utf-8'), (b'Content-Length', b'1919'), (b'Connection', b'keep-alive'), (b'Date', b'Sat, 03 Jan 2026 10:10:27 GMT'), (b'ETag', b'"70e4cd0beb74ca08a2df9de6bd79d938670a4d15"'), (b'X-Powered-By', b'huggingface-moon'), (b'X-Request-Id', b'Root=1-6958eb13-4d15de1a0438a84944f2cce6'), (b'RateLimit', b'"resolvers";r=2999;t=241'), (b'RateLimit-Policy', b'"fixed window";"resolvers";q=3000;w=300'), (b'cross-origin-opener-policy', b'same-origin'), (b'Referrer-Policy', b'strict-origin-when-cross-origin'), (b'Access-Control-Max-Age', b'86400'), (b'Access-Control-Allow-Origin', b'https://huggingface.co'), (b'Access-Control-Expose-Headers', b'X-Repo-Commit,X-Request-Id,X-Error-Code,X-Error-Message,X-Total-Count,ETag,Link,Accept-Ranges,Content-Range,X-Linked-Size,X-Linked-ETag,X-Xet-Hash'), (b'X-Repo-Commit', b'0f99f2d0ebe89ac095bcc5903c4dd8f72b367286'), (b'Accept-Ranges', b'bytes'), (b'Content-Disposition', b'inline; filename*=UTF-8\'\'hyperparams.yaml; filename="hyperparams.yaml";'), (b'Content-Security-Policy', b"default-src 'none'; sandbox"), (b'Vary', b'Origin'), (b'X-Cache', b'Hit from cloudfront'), (b'Via', b'1.1 a254b804a514a03398ee1399ef3d47c6.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'BOM78-P10'), (b'X-Amz-Cf-Id', b'UQ9xgiohyWjxJ1lnUzK7xr-xxAQLocsB6xJpHJQzNnEHg0OpAr_-Ag=='), (b'Age', b'13307586')])
+2026-06-06 16:13:35  [INFO    ]  httpx — HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/speechbrain/spkrec-ecapa-voxceleb/0f99f2d0ebe89ac095bcc5903c4dd8f72b367286/hyperparams.yaml "HTTP/1.1 200 OK"
+2026-06-06 16:13:35  [DEBUG   ]  httpcore.http11 — receive_response_body.started request=<Request [b'HEAD']>
+2026-06-06 16:13:35  [DEBUG   ]  httpcore.http11 — receive_response_body.complete
+2026-06-06 16:13:35  [DEBUG   ]  httpcore.http11 — response_closed.started
+2026-06-06 16:13:35  [DEBUG   ]  httpcore.http11 — response_closed.complete
+2026-06-06 16:13:35  [ERROR   ]  __main__ — [Main] Failed to load VoiceModule: [WinError 1314] A required privilege is not held by the client: 'C:\\Users\\aryan\\.cache\\huggingface\\hub\\models--speechbrain--spkrec-ecapa-voxceleb\\snapshots\\0f99f2d0ebe89ac095bcc5903c4dd8f72b367286\\hyperparams.yaml' -> 'C:\\Users\\aryan\\OneDrive\\Desktop\\work\\full_auth\\system_main\\data\\pretrained_models\\spkrec-ecapa-voxceleb\\hyperparams.yaml'
+2026-06-06 16:13:35  [DEBUG   ]  httpcore.connection — close.started
+2026-06-06 16:13:35  [DEBUG   ]  httpcore.connection — close.complete
+2026-06-06 16:25:33  [INFO    ]  root — Logger initialized. Log file: logs/auth_2026-06-06.log
+2026-06-06 16:25:33  [INFO    ]  __main__ — [Main] Starting TriGuard Security System v1.0.0
+2026-06-06 16:25:33  [INFO    ]  __main__ — [Main] Auth threshold: 0.7
+2026-06-06 16:25:33  [INFO    ]  modules.face_module — [Face] Loaded 8 identities from 'data/face_embeddings/student_embeddings.pkl'.
+2026-06-06 16:25:35  [DEBUG   ]  tensorflow — Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2026-06-06 16:25:36  [DEBUG   ]  h5py._conv — Creating converter from 7 to 5
+2026-06-06 16:25:36  [DEBUG   ]  h5py._conv — Creating converter from 5 to 7
+2026-06-06 16:25:36  [DEBUG   ]  h5py._conv — Creating converter from 7 to 5
+2026-06-06 16:25:36  [DEBUG   ]  h5py._conv — Creating converter from 5 to 7
+2026-06-06 16:25:36  [DEBUG   ]  jax._src.path — etils.epath was not found. Using pathlib for file I/O.
+2026-06-06 16:25:38  [DEBUG   ]  matplotlib — matplotlib data path: C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\matplotlib\mpl-data
+2026-06-06 16:25:38  [DEBUG   ]  matplotlib — CONFIGDIR=C:\Users\aryan\.matplotlib
+2026-06-06 16:25:38  [DEBUG   ]  matplotlib — interactive is False
+2026-06-06 16:25:38  [DEBUG   ]  matplotlib — platform is win32
+2026-06-06 16:25:38  [DEBUG   ]  matplotlib — CACHEDIR=C:\Users\aryan\.matplotlib
+2026-06-06 16:25:38  [DEBUG   ]  matplotlib.font_manager — Using fontManager instance from C:\Users\aryan\.matplotlib\fontlist-v390.json
+2026-06-06 16:25:39  [INFO    ]  modules.face_module — [Face] MTCNN detector initialized.
+2026-06-06 16:25:39  [INFO    ]  __main__ — [Main] FaceModule loaded.
+2026-06-06 16:25:42  [DEBUG   ]  torio._extension.utils — Loading FFmpeg6
+2026-06-06 16:25:42  [DEBUG   ]  torio._extension.utils — Failed to load FFmpeg6 extension.
+Traceback (most recent call last):
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\_extension\utils.py", line 116, in _find_ffmpeg_extension
+    ext = _find_versionsed_ffmpeg_extension(ffmpeg_ver)
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\_extension\utils.py", line 108, in _find_versionsed_ffmpeg_extension
+    _load_lib(lib)
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\_extension\utils.py", line 94, in _load_lib
+    torch.ops.load_library(path)
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torch\_ops.py", line 1392, in load_library
+    ctypes.CDLL(path)
+  File "C:\Program Files\Python310\lib\ctypes\__init__.py", line 374, in __init__
+    self._handle = _dlopen(self._name, mode)
+FileNotFoundError: Could not find module 'C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\lib\libtorio_ffmpeg6.pyd' (or one of its dependencies). Try using the full path with constructor syntax.
+2026-06-06 16:25:42  [DEBUG   ]  torio._extension.utils — Loading FFmpeg5
+2026-06-06 16:25:42  [DEBUG   ]  torio._extension.utils — Failed to load FFmpeg5 extension.
+Traceback (most recent call last):
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\_extension\utils.py", line 116, in _find_ffmpeg_extension
+    ext = _find_versionsed_ffmpeg_extension(ffmpeg_ver)
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\_extension\utils.py", line 108, in _find_versionsed_ffmpeg_extension
+    _load_lib(lib)
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\_extension\utils.py", line 94, in _load_lib
+    torch.ops.load_library(path)
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torch\_ops.py", line 1392, in load_library
+    ctypes.CDLL(path)
+  File "C:\Program Files\Python310\lib\ctypes\__init__.py", line 374, in __init__
+    self._handle = _dlopen(self._name, mode)
+FileNotFoundError: Could not find module 'C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\lib\libtorio_ffmpeg5.pyd' (or one of its dependencies). Try using the full path with constructor syntax.
+2026-06-06 16:25:42  [DEBUG   ]  torio._extension.utils — Loading FFmpeg4
+2026-06-06 16:25:42  [DEBUG   ]  torio._extension.utils — Failed to load FFmpeg4 extension.
+Traceback (most recent call last):
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\_extension\utils.py", line 116, in _find_ffmpeg_extension
+    ext = _find_versionsed_ffmpeg_extension(ffmpeg_ver)
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\_extension\utils.py", line 108, in _find_versionsed_ffmpeg_extension
+    _load_lib(lib)
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\_extension\utils.py", line 94, in _load_lib
+    torch.ops.load_library(path)
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torch\_ops.py", line 1392, in load_library
+    ctypes.CDLL(path)
+  File "C:\Program Files\Python310\lib\ctypes\__init__.py", line 374, in __init__
+    self._handle = _dlopen(self._name, mode)
+FileNotFoundError: Could not find module 'C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\lib\libtorio_ffmpeg4.pyd' (or one of its dependencies). Try using the full path with constructor syntax.
+2026-06-06 16:25:42  [DEBUG   ]  torio._extension.utils — Loading FFmpeg
+2026-06-06 16:25:42  [DEBUG   ]  torio._extension.utils — Failed to load FFmpeg extension.
+Traceback (most recent call last):
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\_extension\utils.py", line 116, in _find_ffmpeg_extension
+    ext = _find_versionsed_ffmpeg_extension(ffmpeg_ver)
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\_extension\utils.py", line 106, in _find_versionsed_ffmpeg_extension
+    raise RuntimeError(f"FFmpeg{version} extension is not available.")
+RuntimeError: FFmpeg extension is not available.
+2026-06-06 16:25:45  [INFO    ]  speechbrain.utils.quirks — Applied quirks (see `speechbrain.utils.quirks`): [disable_jit_profiling, allow_tf32]
+2026-06-06 16:25:45  [INFO    ]  speechbrain.utils.quirks — Excluded quirks specified by the `SB_DISABLE_QUIRKS` environment (comma-separated list): []
+2026-06-06 16:25:45  [INFO    ]  modules.voice_module — [Voice] Loading ECAPA-TDNN model on cuda:0...
+2026-06-06 16:25:45  [INFO    ]  speechbrain.utils.fetching — Fetch hyperparams.yaml: Fetching from HuggingFace Hub 'speechbrain/spkrec-ecapa-voxceleb' if not cached
+2026-06-06 16:25:45  [DEBUG   ]  httpcore.connection — connect_tcp.started host='huggingface.co' port=443 local_address=None timeout=10 socket_options=None
+2026-06-06 16:25:45  [DEBUG   ]  httpcore.connection — connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000016290A2CDF0>
+2026-06-06 16:25:45  [DEBUG   ]  httpcore.connection — start_tls.started ssl_context=<ssl.SSLContext object at 0x00000162908838C0> server_hostname='huggingface.co' timeout=10
+2026-06-06 16:25:45  [DEBUG   ]  httpcore.connection — start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000016290A2CDC0>
+2026-06-06 16:25:45  [DEBUG   ]  httpcore.http11 — send_request_headers.started request=<Request [b'HEAD']>
+2026-06-06 16:25:45  [DEBUG   ]  httpcore.http11 — send_request_headers.complete
+2026-06-06 16:25:45  [DEBUG   ]  httpcore.http11 — send_request_body.started request=<Request [b'HEAD']>
+2026-06-06 16:25:45  [DEBUG   ]  httpcore.http11 — send_request_body.complete
+2026-06-06 16:25:45  [DEBUG   ]  httpcore.http11 — receive_response_headers.started request=<Request [b'HEAD']>
+2026-06-06 16:25:45  [DEBUG   ]  httpcore.http11 — receive_response_headers.complete return_value=(b'HTTP/1.1', 307, b'Temporary Redirect', [(b'Content-Type', b'text/plain; charset=utf-8'), (b'Content-Length', b'280'), (b'Connection', b'keep-alive'), (b'Date', b'Sat, 06 Jun 2026 10:55:44 GMT'), (b'Location', b'/api/resolve-cache/models/speechbrain/spkrec-ecapa-voxceleb/0f99f2d0ebe89ac095bcc5903c4dd8f72b367286/hyperparams.yaml?%2Fspeechbrain%2Fspkrec-ecapa-voxceleb%2Fresolve%2Fmain%2Fhyperparams.yaml=&etag=%2270e4cd0beb74ca08a2df9de6bd79d938670a4d15%22'), (b'X-Powered-By', b'huggingface-moon'), (b'X-Request-Id', b'Root=1-6a23fcb0-017bbc563687006a1d24080d;af48dc1f-5cd4-4edb-9e8a-b35f752bfebb'), (b'RateLimit', b'"resolvers";r=2999;t=200'), (b'RateLimit-Policy', b'"fixed window";"resolvers";q=3000;w=300'), (b'cross-origin-opener-policy', b'same-origin'), (b'Referrer-Policy', b'strict-origin-when-cross-origin'), (b'Access-Control-Max-Age', b'86400'), (b'Access-Control-Allow-Origin', b'https://huggingface.co'), (b'Vary', b'Origin, Accept'), (b'Access-Control-Expose-Headers', b'X-Repo-Commit,X-Request-Id,X-Error-Code,X-Error-Message,X-Total-Count,ETag,Link,Accept-Ranges,Content-Range,X-Linked-Size,X-Linked-ETag,X-Xet-Hash'), (b'X-Repo-Commit', b'0f99f2d0ebe89ac095bcc5903c4dd8f72b367286'), (b'Accept-Ranges', b'bytes'), (b'X-Hub-Cache', b'HIT'), (b'Content-Disposition', b'inline; filename*=UTF-8\'\'hyperparams.yaml; filename="hyperparams.yaml";'), (b'Content-Security-Policy', b"default-src 'none'; sandbox"), (b'X-Linked-ETag', b'"70e4cd0beb74ca08a2df9de6bd79d938670a4d15"'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 ac96e0e712fee00b10ee24590c877c02.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'BOM78-P10'), (b'X-Amz-Cf-Id', b'tdTkr7xkxOEYIoJjn8lt9ReBTojTGzzCXTzVM5M77_S86b8bHx7oKg==')])
+2026-06-06 16:25:45  [INFO    ]  httpx — HTTP Request: HEAD https://huggingface.co/speechbrain/spkrec-ecapa-voxceleb/resolve/main/hyperparams.yaml "HTTP/1.1 307 Temporary Redirect"
+2026-06-06 16:25:45  [DEBUG   ]  httpcore.http11 — receive_response_body.started request=<Request [b'HEAD']>
+2026-06-06 16:25:45  [DEBUG   ]  httpcore.http11 — receive_response_body.complete
+2026-06-06 16:25:45  [DEBUG   ]  httpcore.http11 — response_closed.started
+2026-06-06 16:25:45  [DEBUG   ]  httpcore.http11 — response_closed.complete
+2026-06-06 16:25:45  [DEBUG   ]  httpcore.http11 — send_request_headers.started request=<Request [b'HEAD']>
+2026-06-06 16:25:45  [DEBUG   ]  httpcore.http11 — send_request_headers.complete
+2026-06-06 16:25:45  [DEBUG   ]  httpcore.http11 — send_request_body.started request=<Request [b'HEAD']>
+2026-06-06 16:25:45  [DEBUG   ]  httpcore.http11 — send_request_body.complete
+2026-06-06 16:25:45  [DEBUG   ]  httpcore.http11 — receive_response_headers.started request=<Request [b'HEAD']>
+2026-06-06 16:25:45  [DEBUG   ]  httpcore.http11 — receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'text/plain; charset=utf-8'), (b'Content-Length', b'1919'), (b'Connection', b'keep-alive'), (b'Date', b'Sat, 03 Jan 2026 10:10:27 GMT'), (b'ETag', b'"70e4cd0beb74ca08a2df9de6bd79d938670a4d15"'), (b'X-Powered-By', b'huggingface-moon'), (b'X-Request-Id', b'Root=1-6958eb13-4d15de1a0438a84944f2cce6'), (b'RateLimit', b'"resolvers";r=2999;t=241'), (b'RateLimit-Policy', b'"fixed window";"resolvers";q=3000;w=300'), (b'cross-origin-opener-policy', b'same-origin'), (b'Referrer-Policy', b'strict-origin-when-cross-origin'), (b'Access-Control-Max-Age', b'86400'), (b'Access-Control-Allow-Origin', b'https://huggingface.co'), (b'Access-Control-Expose-Headers', b'X-Repo-Commit,X-Request-Id,X-Error-Code,X-Error-Message,X-Total-Count,ETag,Link,Accept-Ranges,Content-Range,X-Linked-Size,X-Linked-ETag,X-Xet-Hash'), (b'X-Repo-Commit', b'0f99f2d0ebe89ac095bcc5903c4dd8f72b367286'), (b'Accept-Ranges', b'bytes'), (b'Content-Disposition', b'inline; filename*=UTF-8\'\'hyperparams.yaml; filename="hyperparams.yaml";'), (b'Content-Security-Policy', b"default-src 'none'; sandbox"), (b'Vary', b'Origin'), (b'X-Cache', b'Hit from cloudfront'), (b'Via', b'1.1 ac96e0e712fee00b10ee24590c877c02.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'BOM78-P10'), (b'X-Amz-Cf-Id', b'jMCZo0MigUKZGaehy-6JudBZNtrGu-dCpVqiUJDMLP3hz3oFNj1Wog=='), (b'Age', b'13308316')])
+2026-06-06 16:25:45  [INFO    ]  httpx — HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/speechbrain/spkrec-ecapa-voxceleb/0f99f2d0ebe89ac095bcc5903c4dd8f72b367286/hyperparams.yaml "HTTP/1.1 200 OK"
+2026-06-06 16:25:45  [DEBUG   ]  httpcore.http11 — receive_response_body.started request=<Request [b'HEAD']>
+2026-06-06 16:25:45  [DEBUG   ]  httpcore.http11 — receive_response_body.complete
+2026-06-06 16:25:45  [DEBUG   ]  httpcore.http11 — response_closed.started
+2026-06-06 16:25:45  [DEBUG   ]  httpcore.http11 — response_closed.complete
+2026-06-06 16:25:45  [INFO    ]  speechbrain.utils.fetching — Fetch embedding_model.ckpt: Fetching from HuggingFace Hub 'speechbrain/spkrec-ecapa-voxceleb' if not cached
+2026-06-06 16:25:45  [DEBUG   ]  httpcore.http11 — send_request_headers.started request=<Request [b'HEAD']>
+2026-06-06 16:25:45  [DEBUG   ]  httpcore.http11 — send_request_headers.complete
+2026-06-06 16:25:45  [DEBUG   ]  httpcore.http11 — send_request_body.started request=<Request [b'HEAD']>
+2026-06-06 16:25:45  [DEBUG   ]  httpcore.http11 — send_request_body.complete
+2026-06-06 16:25:45  [DEBUG   ]  httpcore.http11 — receive_response_headers.started request=<Request [b'HEAD']>
+2026-06-06 16:25:46  [DEBUG   ]  httpcore.http11 — receive_response_headers.complete return_value=(b'HTTP/1.1', 302, b'Found', [(b'Content-Type', b'text/plain; charset=utf-8'), (b'Content-Length', b'1018'), (b'Connection', b'keep-alive'), (b'Date', b'Sat, 06 Jun 2026 10:55:45 GMT'), (b'Location', b'https://cas-bridge.xethub.hf.co/xet-bridge-us/621ffdc136468d709f1807d3/ed9dd7eecfc31c6d3ae8a40ffddc72eb46384afc894b362440ff84f267d67ef9?Expires=1780746945&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jYXMtYnJpZGdlLnhldGh1Yi5oZi5jby94ZXQtYnJpZGdlLXVzLzYyMWZmZGMxMzY0NjhkNzA5ZjE4MDdkMy9lZDlkZDdlZWNmYzMxYzZkM2FlOGE0MGZmZGRjNzJlYjQ2Mzg0YWZjODk0YjM2MjQ0MGZmODRmMjY3ZDY3ZWY5KiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc4MDc0Njk0NX19fV19&Signature=MEUCIQDZetVexNl6ig8AnTU8PWDDhpn3O-bzumD3Im9CkEGblAIgZTFZfRYMEbvD6unK0wpjSEkO%7E5YZnNNKayzP4nM-di4_&Key-Pair-Id=K1LYXO563TGWFU&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27embedding_model.ckpt%3B+filename%3D%22embedding_model.ckpt%22%3B&X-Xet-Cas-Uid=public&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=cas%2F20260606%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260606T105545Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=41343bfebdf5dedca37f255dcb84a5e7a6d2cf3d4f9cc73c1196682b917125b0'), (b'X-Powered-By', b'huggingface-moon'), (b'X-Request-Id', b'Root=1-6a23fcb1-5f1b870f1916247f53f8d070;fee4a8ff-c911-46e4-84f3-fd414ccc8593'), (b'RateLimit', b'"resolvers";r=2998;t=199'), (b'RateLimit-Policy', b'"fixed window";"resolvers";q=3000;w=300'), (b'cross-origin-opener-policy', b'same-origin'), (b'Referrer-Policy', b'strict-origin-when-cross-origin'), (b'Access-Control-Max-Age', b'86400'), (b'Access-Control-Allow-Origin', b'https://huggingface.co'), (b'Vary', b'Origin, Accept'), (b'Access-Control-Expose-Headers', b'X-Repo-Commit,X-Request-Id,X-Error-Code,X-Error-Message,X-Total-Count,ETag,Link,Accept-Ranges,Content-Range,X-Linked-Size,X-Linked-ETag,X-Xet-Hash'), (b'X-Repo-Commit', b'0f99f2d0ebe89ac095bcc5903c4dd8f72b367286'), (b'Accept-Ranges', b'bytes'), (b'X-HF-Warning', b'unauthenticated; Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.'), (b'X-Hub-Cache', b'HIT'), (b'X-Linked-Size', b'83316686'), (b'X-Linked-ETag', b'"0575cb64845e6b9a10db9bcb74d5ac32b326b8dc90352671d345e2ee3d0126a2"'), (b'X-Xet-Hash', b'ed9dd7eecfc31c6d3ae8a40ffddc72eb46384afc894b362440ff84f267d67ef9'), (b'Link', b'<https://huggingface.co/api/models/speechbrain/spkrec-ecapa-voxceleb/xet-read-token/0f99f2d0ebe89ac095bcc5903c4dd8f72b367286>; rel="xet-auth", <https://cas-server.xethub.hf.co/v1/reconstructions/ed9dd7eecfc31c6d3ae8a40ffddc72eb46384afc894b362440ff84f267d67ef9>; rel="xet-reconstruction-info"'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 ac96e0e712fee00b10ee24590c877c02.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'BOM78-P10'), (b'X-Amz-Cf-Id', b'OYe1VjHv6E0_IsYntcX73YNuYNbY4p1BS-cKvG4OO-Ocv_WwpPHQcA==')])
+2026-06-06 16:25:46  [INFO    ]  httpx — HTTP Request: HEAD https://huggingface.co/speechbrain/spkrec-ecapa-voxceleb/resolve/main/embedding_model.ckpt "HTTP/1.1 302 Found"
+2026-06-06 16:25:46  [DEBUG   ]  httpcore.http11 — receive_response_body.started request=<Request [b'HEAD']>
+2026-06-06 16:25:46  [DEBUG   ]  httpcore.http11 — receive_response_body.complete
+2026-06-06 16:25:46  [DEBUG   ]  httpcore.http11 — response_closed.started
+2026-06-06 16:25:46  [DEBUG   ]  httpcore.http11 — response_closed.complete
+2026-06-06 16:25:46  [WARNING ]  huggingface_hub.utils._http — Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-06-06 16:25:46  [INFO    ]  speechbrain.utils.fetching — Fetch mean_var_norm_emb.ckpt: Fetching from HuggingFace Hub 'speechbrain/spkrec-ecapa-voxceleb' if not cached
+2026-06-06 16:25:46  [DEBUG   ]  httpcore.http11 — send_request_headers.started request=<Request [b'HEAD']>
+2026-06-06 16:25:46  [DEBUG   ]  httpcore.http11 — send_request_headers.complete
+2026-06-06 16:25:46  [DEBUG   ]  httpcore.http11 — send_request_body.started request=<Request [b'HEAD']>
+2026-06-06 16:25:46  [DEBUG   ]  httpcore.http11 — send_request_body.complete
+2026-06-06 16:25:46  [DEBUG   ]  httpcore.http11 — receive_response_headers.started request=<Request [b'HEAD']>
+2026-06-06 16:25:46  [DEBUG   ]  httpcore.http11 — receive_response_headers.complete return_value=(b'HTTP/1.1', 307, b'Temporary Redirect', [(b'Content-Type', b'text/plain; charset=utf-8'), (b'Content-Length', b'292'), (b'Connection', b'keep-alive'), (b'Date', b'Sat, 06 Jun 2026 10:55:45 GMT'), (b'Location', b'/api/resolve-cache/models/speechbrain/spkrec-ecapa-voxceleb/0f99f2d0ebe89ac095bcc5903c4dd8f72b367286/mean_var_norm_emb.ckpt?%2Fspeechbrain%2Fspkrec-ecapa-voxceleb%2Fresolve%2Fmain%2Fmean_var_norm_emb.ckpt=&etag=%221978c5e7f20d5ffd14c8a932a7e85a09816f3da9%22'), (b'X-Powered-By', b'huggingface-moon'), (b'X-Request-Id', b'Root=1-6a23fcb1-5939443a286dbccc193e2b28;2d0800ab-7f33-4f63-83dc-96fa2ea0400e'), (b'RateLimit', b'"resolvers";r=2997;t=199'), (b'RateLimit-Policy', b'"fixed window";"resolvers";q=3000;w=300'), (b'cross-origin-opener-policy', b'same-origin'), (b'Referrer-Policy', b'strict-origin-when-cross-origin'), (b'Access-Control-Max-Age', b'86400'), (b'Access-Control-Allow-Origin', b'https://huggingface.co'), (b'Vary', b'Origin, Accept'), (b'Access-Control-Expose-Headers', b'X-Repo-Commit,X-Request-Id,X-Error-Code,X-Error-Message,X-Total-Count,ETag,Link,Accept-Ranges,Content-Range,X-Linked-Size,X-Linked-ETag,X-Xet-Hash'), (b'X-Repo-Commit', b'0f99f2d0ebe89ac095bcc5903c4dd8f72b367286'), (b'Accept-Ranges', b'bytes'), (b'X-HF-Warning', b'unauthenticated; Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.'), (b'X-Hub-Cache', b'HIT'), (b'Content-Disposition', b'attachment; filename*=UTF-8\'\'mean_var_norm_emb.ckpt; filename="mean_var_norm_emb.ckpt";'), (b'Content-Security-Policy', b"default-src 'none'; sandbox"), (b'X-Linked-ETag', b'"1978c5e7f20d5ffd14c8a932a7e85a09816f3da9"'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 ac96e0e712fee00b10ee24590c877c02.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'BOM78-P10'), (b'X-Amz-Cf-Id', b'bTwFSZPJXkYtRGvT7QgXBwJv9t2wyUqkvu85UkM_NL-tn3gaMGNChQ==')])
+2026-06-06 16:25:46  [INFO    ]  httpx — HTTP Request: HEAD https://huggingface.co/speechbrain/spkrec-ecapa-voxceleb/resolve/main/mean_var_norm_emb.ckpt "HTTP/1.1 307 Temporary Redirect"
+2026-06-06 16:25:46  [DEBUG   ]  httpcore.http11 — receive_response_body.started request=<Request [b'HEAD']>
+2026-06-06 16:25:46  [DEBUG   ]  httpcore.http11 — receive_response_body.complete
+2026-06-06 16:25:46  [DEBUG   ]  httpcore.http11 — response_closed.started
+2026-06-06 16:25:46  [DEBUG   ]  httpcore.http11 — response_closed.complete
+2026-06-06 16:25:46  [DEBUG   ]  httpcore.http11 — send_request_headers.started request=<Request [b'HEAD']>
+2026-06-06 16:25:46  [DEBUG   ]  httpcore.http11 — send_request_headers.complete
+2026-06-06 16:25:46  [DEBUG   ]  httpcore.http11 — send_request_body.started request=<Request [b'HEAD']>
+2026-06-06 16:25:46  [DEBUG   ]  httpcore.http11 — send_request_body.complete
+2026-06-06 16:25:46  [DEBUG   ]  httpcore.http11 — receive_response_headers.started request=<Request [b'HEAD']>
+2026-06-06 16:25:46  [DEBUG   ]  httpcore.http11 — receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Length', b'1921'), (b'Connection', b'keep-alive'), (b'Date', b'Sat, 03 Jan 2026 10:10:33 GMT'), (b'ETag', b'"1978c5e7f20d5ffd14c8a932a7e85a09816f3da9"'), (b'X-Powered-By', b'huggingface-moon'), (b'X-Request-Id', b'Root=1-6958eb19-264be0d55137e4a852980ccc'), (b'RateLimit', b'"resolvers";r=2998;t=235'), (b'RateLimit-Policy', b'"fixed window";"resolvers";q=3000;w=300'), (b'cross-origin-opener-policy', b'same-origin'), (b'Referrer-Policy', b'strict-origin-when-cross-origin'), (b'Access-Control-Max-Age', b'86400'), (b'Access-Control-Allow-Origin', b'https://huggingface.co'), (b'Access-Control-Expose-Headers', b'X-Repo-Commit,X-Request-Id,X-Error-Code,X-Error-Message,X-Total-Count,ETag,Link,Accept-Ranges,Content-Range,X-Linked-Size,X-Linked-ETag,X-Xet-Hash'), (b'X-Repo-Commit', b'0f99f2d0ebe89ac095bcc5903c4dd8f72b367286'), (b'Accept-Ranges', b'bytes'), (b'Content-Disposition', b'attachment; filename*=UTF-8\'\'mean_var_norm_emb.ckpt; filename="mean_var_norm_emb.ckpt";'), (b'Content-Security-Policy', b"default-src 'none'; sandbox"), (b'Vary', b'Origin'), (b'X-Cache', b'Hit from cloudfront'), (b'Via', b'1.1 ac96e0e712fee00b10ee24590c877c02.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'BOM78-P10'), (b'X-Amz-Cf-Id', b'7ZpoOTBnJAf5YL3IwyeCeoU-TqqSE8CtOIawYKaJ4hVmKlHNmlOSHw=='), (b'Age', b'13308312')])
+2026-06-06 16:25:46  [INFO    ]  httpx — HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/speechbrain/spkrec-ecapa-voxceleb/0f99f2d0ebe89ac095bcc5903c4dd8f72b367286/mean_var_norm_emb.ckpt "HTTP/1.1 200 OK"
+2026-06-06 16:25:46  [DEBUG   ]  httpcore.http11 — receive_response_body.started request=<Request [b'HEAD']>
+2026-06-06 16:25:46  [DEBUG   ]  httpcore.http11 — receive_response_body.complete
+2026-06-06 16:25:46  [DEBUG   ]  httpcore.http11 — response_closed.started
+2026-06-06 16:25:46  [DEBUG   ]  httpcore.http11 — response_closed.complete
+2026-06-06 16:25:46  [INFO    ]  speechbrain.utils.fetching — Fetch classifier.ckpt: Fetching from HuggingFace Hub 'speechbrain/spkrec-ecapa-voxceleb' if not cached
+2026-06-06 16:25:46  [DEBUG   ]  httpcore.http11 — send_request_headers.started request=<Request [b'HEAD']>
+2026-06-06 16:25:46  [DEBUG   ]  httpcore.http11 — send_request_headers.complete
+2026-06-06 16:25:46  [DEBUG   ]  httpcore.http11 — send_request_body.started request=<Request [b'HEAD']>
+2026-06-06 16:25:46  [DEBUG   ]  httpcore.http11 — send_request_body.complete
+2026-06-06 16:25:46  [DEBUG   ]  httpcore.http11 — receive_response_headers.started request=<Request [b'HEAD']>
+2026-06-06 16:25:46  [DEBUG   ]  httpcore.http11 — receive_response_headers.complete return_value=(b'HTTP/1.1', 302, b'Found', [(b'Content-Type', b'text/plain; charset=utf-8'), (b'Content-Length', b'1006'), (b'Connection', b'keep-alive'), (b'Date', b'Sat, 06 Jun 2026 10:55:45 GMT'), (b'Location', b'https://cas-bridge.xethub.hf.co/xet-bridge-us/621ffdc136468d709f1807d3/68375f3bef5a0d19fe2ead1bfa3bcbf02e253ca7de8a72dd56cabdafc2395104?Expires=1780746945&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jYXMtYnJpZGdlLnhldGh1Yi5oZi5jby94ZXQtYnJpZGdlLXVzLzYyMWZmZGMxMzY0NjhkNzA5ZjE4MDdkMy82ODM3NWYzYmVmNWEwZDE5ZmUyZWFkMWJmYTNiY2JmMDJlMjUzY2E3ZGU4YTcyZGQ1NmNhYmRhZmMyMzk1MTA0KiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc4MDc0Njk0NX19fV19&Signature=MEYCIQDVjQUDXumEZoRIG6rK8uFNk8VlG7VRcry8UwtGOZTD0gIhAL2C6QEQRDxM55dIlMjkJ7AbqGIzeeo4uVTNAW9xOPPY&Key-Pair-Id=K1LYXO563TGWFU&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27classifier.ckpt%3B+filename%3D%22classifier.ckpt%22%3B&X-Xet-Cas-Uid=public&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=cas%2F20260606%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260606T105545Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=cab4c6482cb068f1cddd78a434b14892b24e781a1d9f043306db768e3b29bb93'), (b'X-Powered-By', b'huggingface-moon'), (b'X-Request-Id', b'Root=1-6a23fcb1-697d582225fa6814588ccf6b;3c472954-282c-4231-85b3-b2a7eb1f79ff'), (b'RateLimit', b'"resolvers";r=2996;t=199'), (b'RateLimit-Policy', b'"fixed window";"resolvers";q=3000;w=300'), (b'cross-origin-opener-policy', b'same-origin'), (b'Referrer-Policy', b'strict-origin-when-cross-origin'), (b'Access-Control-Max-Age', b'86400'), (b'Access-Control-Allow-Origin', b'https://huggingface.co'), (b'Vary', b'Origin, Accept'), (b'Access-Control-Expose-Headers', b'X-Repo-Commit,X-Request-Id,X-Error-Code,X-Error-Message,X-Total-Count,ETag,Link,Accept-Ranges,Content-Range,X-Linked-Size,X-Linked-ETag,X-Xet-Hash'), (b'X-Repo-Commit', b'0f99f2d0ebe89ac095bcc5903c4dd8f72b367286'), (b'Accept-Ranges', b'bytes'), (b'X-Hub-Cache', b'MISS'), (b'X-Linked-Size', b'5534328'), (b'X-Linked-ETag', b'"fd9e3634fe68bd0a427c95e354c0c677374f62b3f434e45b78599950d860d535"'), (b'X-Xet-Hash', b'68375f3bef5a0d19fe2ead1bfa3bcbf02e253ca7de8a72dd56cabdafc2395104'), (b'Link', b'<https://huggingface.co/api/models/speechbrain/spkrec-ecapa-voxceleb/xet-read-token/0f99f2d0ebe89ac095bcc5903c4dd8f72b367286>; rel="xet-auth", <https://cas-server.xethub.hf.co/v1/reconstructions/68375f3bef5a0d19fe2ead1bfa3bcbf02e253ca7de8a72dd56cabdafc2395104>; rel="xet-reconstruction-info"'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 ac96e0e712fee00b10ee24590c877c02.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'BOM78-P10'), (b'X-Amz-Cf-Id', b'HnG8BgaBfd8TsJ1-s9NUwaDeh7Y-Is4ihvTFEup7hsFXD7nXPTGzZQ==')])
+2026-06-06 16:25:46  [INFO    ]  httpx — HTTP Request: HEAD https://huggingface.co/speechbrain/spkrec-ecapa-voxceleb/resolve/main/classifier.ckpt "HTTP/1.1 302 Found"
+2026-06-06 16:25:46  [DEBUG   ]  httpcore.http11 — receive_response_body.started request=<Request [b'HEAD']>
+2026-06-06 16:25:46  [DEBUG   ]  httpcore.http11 — receive_response_body.complete
+2026-06-06 16:25:46  [DEBUG   ]  httpcore.http11 — response_closed.started
+2026-06-06 16:25:46  [DEBUG   ]  httpcore.http11 — response_closed.complete
+2026-06-06 16:25:46  [INFO    ]  speechbrain.utils.fetching — Fetch label_encoder.txt: Fetching from HuggingFace Hub 'speechbrain/spkrec-ecapa-voxceleb' if not cached
+2026-06-06 16:25:46  [DEBUG   ]  httpcore.http11 — send_request_headers.started request=<Request [b'HEAD']>
+2026-06-06 16:25:46  [DEBUG   ]  httpcore.http11 — send_request_headers.complete
+2026-06-06 16:25:46  [DEBUG   ]  httpcore.http11 — send_request_body.started request=<Request [b'HEAD']>
+2026-06-06 16:25:46  [DEBUG   ]  httpcore.http11 — send_request_body.complete
+2026-06-06 16:25:46  [DEBUG   ]  httpcore.http11 — receive_response_headers.started request=<Request [b'HEAD']>
+2026-06-06 16:25:46  [DEBUG   ]  httpcore.http11 — receive_response_headers.complete return_value=(b'HTTP/1.1', 307, b'Temporary Redirect', [(b'Content-Type', b'text/plain; charset=utf-8'), (b'Content-Length', b'282'), (b'Connection', b'keep-alive'), (b'Date', b'Sat, 06 Jun 2026 10:55:45 GMT'), (b'Location', b'/api/resolve-cache/models/speechbrain/spkrec-ecapa-voxceleb/0f99f2d0ebe89ac095bcc5903c4dd8f72b367286/label_encoder.txt?%2Fspeechbrain%2Fspkrec-ecapa-voxceleb%2Fresolve%2Fmain%2Flabel_encoder.txt=&etag=%2272c6fa7b170cbfd169df5e09326cd97febdf086a%22'), (b'X-Powered-By', b'huggingface-moon'), (b'X-Request-Id', b'Root=1-6a23fcb1-4164f7a94207009d1eeafb5e;a8a12f59-ad34-4968-a1d6-a4e60bd596eb'), (b'RateLimit', b'"resolvers";r=2995;t=199'), (b'RateLimit-Policy', b'"fixed window";"resolvers";q=3000;w=300'), (b'cross-origin-opener-policy', b'same-origin'), (b'Referrer-Policy', b'strict-origin-when-cross-origin'), (b'Access-Control-Max-Age', b'86400'), (b'Access-Control-Allow-Origin', b'https://huggingface.co'), (b'Vary', b'Origin, Accept'), (b'Access-Control-Expose-Headers', b'X-Repo-Commit,X-Request-Id,X-Error-Code,X-Error-Message,X-Total-Count,ETag,Link,Accept-Ranges,Content-Range,X-Linked-Size,X-Linked-ETag,X-Xet-Hash'), (b'X-Repo-Commit', b'0f99f2d0ebe89ac095bcc5903c4dd8f72b367286'), (b'Accept-Ranges', b'bytes'), (b'X-Hub-Cache', b'MISS'), (b'Content-Disposition', b'inline; filename*=UTF-8\'\'label_encoder.txt; filename="label_encoder.txt";'), (b'Content-Security-Policy', b"default-src 'none'; sandbox"), (b'X-Linked-ETag', b'"72c6fa7b170cbfd169df5e09326cd97febdf086a"'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 ac96e0e712fee00b10ee24590c877c02.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'BOM78-P10'), (b'X-Amz-Cf-Id', b'1VCFWoU-g5k_lyFYyQwFJ_a_QykyhmPWzNntQBCMPv9-6CUEmK8-yQ==')])
+2026-06-06 16:25:46  [INFO    ]  httpx — HTTP Request: HEAD https://huggingface.co/speechbrain/spkrec-ecapa-voxceleb/resolve/main/label_encoder.txt "HTTP/1.1 307 Temporary Redirect"
+2026-06-06 16:25:46  [DEBUG   ]  httpcore.http11 — receive_response_body.started request=<Request [b'HEAD']>
+2026-06-06 16:25:46  [DEBUG   ]  httpcore.http11 — receive_response_body.complete
+2026-06-06 16:25:46  [DEBUG   ]  httpcore.http11 — response_closed.started
+2026-06-06 16:25:46  [DEBUG   ]  httpcore.http11 — response_closed.complete
+2026-06-06 16:25:46  [DEBUG   ]  httpcore.http11 — send_request_headers.started request=<Request [b'HEAD']>
+2026-06-06 16:25:46  [DEBUG   ]  httpcore.http11 — send_request_headers.complete
+2026-06-06 16:25:46  [DEBUG   ]  httpcore.http11 — send_request_body.started request=<Request [b'HEAD']>
+2026-06-06 16:25:46  [DEBUG   ]  httpcore.http11 — send_request_body.complete
+2026-06-06 16:25:46  [DEBUG   ]  httpcore.http11 — receive_response_headers.started request=<Request [b'HEAD']>
+2026-06-06 16:25:46  [DEBUG   ]  httpcore.http11 — receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'text/plain; charset=utf-8'), (b'Content-Length', b'128619'), (b'Connection', b'keep-alive'), (b'Date', b'Sat, 03 Jan 2026 10:10:37 GMT'), (b'ETag', b'"72c6fa7b170cbfd169df5e09326cd97febdf086a"'), (b'X-Powered-By', b'huggingface-moon'), (b'X-Request-Id', b'Root=1-6958eb1d-5b2aabf6263166ca78157d00'), (b'RateLimit', b'"resolvers";r=2997;t=231'), (b'RateLimit-Policy', b'"fixed window";"resolvers";q=3000;w=300'), (b'cross-origin-opener-policy', b'same-origin'), (b'Referrer-Policy', b'strict-origin-when-cross-origin'), (b'Access-Control-Max-Age', b'86400'), (b'Access-Control-Allow-Origin', b'https://huggingface.co'), (b'Access-Control-Expose-Headers', b'X-Repo-Commit,X-Request-Id,X-Error-Code,X-Error-Message,X-Total-Count,ETag,Link,Accept-Ranges,Content-Range,X-Linked-Size,X-Linked-ETag,X-Xet-Hash'), (b'X-Repo-Commit', b'0f99f2d0ebe89ac095bcc5903c4dd8f72b367286'), (b'Accept-Ranges', b'bytes'), (b'Content-Disposition', b'inline; filename*=UTF-8\'\'label_encoder.txt; filename="label_encoder.txt";'), (b'Content-Security-Policy', b"default-src 'none'; sandbox"), (b'Vary', b'Origin'), (b'X-Cache', b'Hit from cloudfront'), (b'Via', b'1.1 ac96e0e712fee00b10ee24590c877c02.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'BOM78-P10'), (b'X-Amz-Cf-Id', b'RKs0tW9x3aIQlAYghJzJatf4-r_uE54euJAzys5t3kqp2M9ya_4vCQ=='), (b'Age', b'13308309')])
+2026-06-06 16:25:46  [INFO    ]  httpx — HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/speechbrain/spkrec-ecapa-voxceleb/0f99f2d0ebe89ac095bcc5903c4dd8f72b367286/label_encoder.txt "HTTP/1.1 200 OK"
+2026-06-06 16:25:46  [DEBUG   ]  httpcore.http11 — receive_response_body.started request=<Request [b'HEAD']>
+2026-06-06 16:25:46  [DEBUG   ]  httpcore.http11 — receive_response_body.complete
+2026-06-06 16:25:46  [DEBUG   ]  httpcore.http11 — response_closed.started
+2026-06-06 16:25:46  [DEBUG   ]  httpcore.http11 — response_closed.complete
+2026-06-06 16:25:46  [INFO    ]  speechbrain.utils.parameter_transfer — Loading pretrained files for: embedding_model, mean_var_norm_emb, classifier, label_encoder
+2026-06-06 16:25:47  [INFO    ]  modules.voice_module — [Voice] Model loaded.
+2026-06-06 16:25:47  [ERROR   ]  modules.voice_module — [Voice] Training directory not found: data/voice_dataset/train
+2026-06-06 16:25:47  [ERROR   ]  __main__ — [Main] Failed to load VoiceModule: Voice training directory not found at 'data/voice_dataset/train'. Create sub-folders per speaker with their audio files.
+2026-06-06 16:25:47  [DEBUG   ]  httpcore.connection — close.started
+2026-06-06 16:25:47  [DEBUG   ]  httpcore.connection — close.complete
+2026-06-06 16:31:24  [INFO    ]  root — Logger initialized. Log file: logs/auth_2026-06-06.log
+2026-06-06 16:31:24  [INFO    ]  __main__ — [Main] TriGuard Security System v1.1.0 starting...
+2026-06-06 16:31:24  [INFO    ]  __main__ — [Main] Auth threshold: 0.7
+2026-06-06 16:31:24  [INFO    ]  modules.face_module — [Face] Loaded 8 identities from 'data/face_embeddings/student_embeddings.pkl'.
+2026-06-06 16:31:26  [DEBUG   ]  tensorflow — Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2026-06-06 16:31:26  [DEBUG   ]  h5py._conv — Creating converter from 7 to 5
+2026-06-06 16:31:26  [DEBUG   ]  h5py._conv — Creating converter from 5 to 7
+2026-06-06 16:31:26  [DEBUG   ]  h5py._conv — Creating converter from 7 to 5
+2026-06-06 16:31:26  [DEBUG   ]  h5py._conv — Creating converter from 5 to 7
+2026-06-06 16:31:26  [DEBUG   ]  jax._src.path — etils.epath was not found. Using pathlib for file I/O.
+2026-06-06 16:31:28  [DEBUG   ]  matplotlib — matplotlib data path: C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\matplotlib\mpl-data
+2026-06-06 16:31:28  [DEBUG   ]  matplotlib — CONFIGDIR=C:\Users\aryan\.matplotlib
+2026-06-06 16:31:28  [DEBUG   ]  matplotlib — interactive is False
+2026-06-06 16:31:28  [DEBUG   ]  matplotlib — platform is win32
+2026-06-06 16:31:28  [DEBUG   ]  matplotlib — CACHEDIR=C:\Users\aryan\.matplotlib
+2026-06-06 16:31:28  [DEBUG   ]  matplotlib.font_manager — Using fontManager instance from C:\Users\aryan\.matplotlib\fontlist-v390.json
+2026-06-06 16:31:28  [INFO    ]  modules.face_module — [Face] MTCNN detector initialised.
+2026-06-06 16:31:28  [INFO    ]  __main__ — [Main] FaceModule ready.
+2026-06-06 16:31:30  [DEBUG   ]  torio._extension.utils — Loading FFmpeg6
+2026-06-06 16:31:30  [DEBUG   ]  torio._extension.utils — Failed to load FFmpeg6 extension.
+Traceback (most recent call last):
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\_extension\utils.py", line 116, in _find_ffmpeg_extension
+    ext = _find_versionsed_ffmpeg_extension(ffmpeg_ver)
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\_extension\utils.py", line 108, in _find_versionsed_ffmpeg_extension
+    _load_lib(lib)
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\_extension\utils.py", line 94, in _load_lib
+    torch.ops.load_library(path)
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torch\_ops.py", line 1392, in load_library
+    ctypes.CDLL(path)
+  File "C:\Program Files\Python310\lib\ctypes\__init__.py", line 374, in __init__
+    self._handle = _dlopen(self._name, mode)
+FileNotFoundError: Could not find module 'C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\lib\libtorio_ffmpeg6.pyd' (or one of its dependencies). Try using the full path with constructor syntax.
+2026-06-06 16:31:30  [DEBUG   ]  torio._extension.utils — Loading FFmpeg5
+2026-06-06 16:31:30  [DEBUG   ]  torio._extension.utils — Failed to load FFmpeg5 extension.
+Traceback (most recent call last):
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\_extension\utils.py", line 116, in _find_ffmpeg_extension
+    ext = _find_versionsed_ffmpeg_extension(ffmpeg_ver)
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\_extension\utils.py", line 108, in _find_versionsed_ffmpeg_extension
+    _load_lib(lib)
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\_extension\utils.py", line 94, in _load_lib
+    torch.ops.load_library(path)
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torch\_ops.py", line 1392, in load_library
+    ctypes.CDLL(path)
+  File "C:\Program Files\Python310\lib\ctypes\__init__.py", line 374, in __init__
+    self._handle = _dlopen(self._name, mode)
+FileNotFoundError: Could not find module 'C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\lib\libtorio_ffmpeg5.pyd' (or one of its dependencies). Try using the full path with constructor syntax.
+2026-06-06 16:31:30  [DEBUG   ]  torio._extension.utils — Loading FFmpeg4
+2026-06-06 16:31:30  [DEBUG   ]  torio._extension.utils — Failed to load FFmpeg4 extension.
+Traceback (most recent call last):
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\_extension\utils.py", line 116, in _find_ffmpeg_extension
+    ext = _find_versionsed_ffmpeg_extension(ffmpeg_ver)
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\_extension\utils.py", line 108, in _find_versionsed_ffmpeg_extension
+    _load_lib(lib)
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\_extension\utils.py", line 94, in _load_lib
+    torch.ops.load_library(path)
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torch\_ops.py", line 1392, in load_library
+    ctypes.CDLL(path)
+  File "C:\Program Files\Python310\lib\ctypes\__init__.py", line 374, in __init__
+    self._handle = _dlopen(self._name, mode)
+FileNotFoundError: Could not find module 'C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\lib\libtorio_ffmpeg4.pyd' (or one of its dependencies). Try using the full path with constructor syntax.
+2026-06-06 16:31:30  [DEBUG   ]  torio._extension.utils — Loading FFmpeg
+2026-06-06 16:31:30  [DEBUG   ]  torio._extension.utils — Failed to load FFmpeg extension.
+Traceback (most recent call last):
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\_extension\utils.py", line 116, in _find_ffmpeg_extension
+    ext = _find_versionsed_ffmpeg_extension(ffmpeg_ver)
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\_extension\utils.py", line 106, in _find_versionsed_ffmpeg_extension
+    raise RuntimeError(f"FFmpeg{version} extension is not available.")
+RuntimeError: FFmpeg extension is not available.
+2026-06-06 16:31:33  [INFO    ]  speechbrain.utils.quirks — Applied quirks (see `speechbrain.utils.quirks`): [allow_tf32, disable_jit_profiling]
+2026-06-06 16:31:33  [INFO    ]  speechbrain.utils.quirks — Excluded quirks specified by the `SB_DISABLE_QUIRKS` environment (comma-separated list): []
+2026-06-06 16:31:33  [INFO    ]  modules.voice_module — [Voice] Loading ECAPA-TDNN on cuda:0...
+2026-06-06 16:31:33  [INFO    ]  speechbrain.utils.fetching — Fetch hyperparams.yaml: Using symlink found at 'C:\Users\aryan\OneDrive\Desktop\work\full_auth\system_main\data\pretrained_models\spkrec-ecapa-voxceleb\hyperparams.yaml'
+2026-06-06 16:31:33  [INFO    ]  speechbrain.utils.fetching — Fetch embedding_model.ckpt: Using symlink found at 'C:\Users\aryan\OneDrive\Desktop\work\full_auth\system_main\data\pretrained_models\spkrec-ecapa-voxceleb\embedding_model.ckpt'
+2026-06-06 16:31:33  [INFO    ]  speechbrain.utils.fetching — Fetch mean_var_norm_emb.ckpt: Using symlink found at 'C:\Users\aryan\OneDrive\Desktop\work\full_auth\system_main\data\pretrained_models\spkrec-ecapa-voxceleb\mean_var_norm_emb.ckpt'
+2026-06-06 16:31:33  [INFO    ]  speechbrain.utils.fetching — Fetch classifier.ckpt: Using symlink found at 'C:\Users\aryan\OneDrive\Desktop\work\full_auth\system_main\data\pretrained_models\spkrec-ecapa-voxceleb\classifier.ckpt'
+2026-06-06 16:31:33  [INFO    ]  speechbrain.utils.fetching — Fetch label_encoder.txt: Using symlink found at 'C:\Users\aryan\OneDrive\Desktop\work\full_auth\system_main\data\pretrained_models\spkrec-ecapa-voxceleb\label_encoder.ckpt'
+2026-06-06 16:31:33  [INFO    ]  speechbrain.utils.parameter_transfer — Loading pretrained files for: embedding_model, mean_var_norm_emb, classifier, label_encoder
+2026-06-06 16:31:34  [INFO    ]  modules.voice_module — [Voice] Model loaded.
+2026-06-06 16:31:34  [ERROR   ]  __main__ — [Main] VoiceModule failed to load: Voice training directory not found at 'data/voice_dataset/train'. Create sub-folders per speaker and add audio files.
+2026-06-06 16:33:37  [INFO    ]  root — Logger initialized. Log file: logs/auth_2026-06-06.log
+2026-06-06 16:33:37  [INFO    ]  __main__ — [Main] TriGuard Security System v1.1.0 starting...
+2026-06-06 16:33:37  [INFO    ]  __main__ — [Main] Auth threshold: 0.7
+2026-06-06 16:33:37  [INFO    ]  modules.face_module — [Face] Loaded 8 identities from 'data/face_embeddings/student_embeddings.pkl'.
+2026-06-06 16:33:39  [DEBUG   ]  tensorflow — Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2026-06-06 16:33:39  [DEBUG   ]  h5py._conv — Creating converter from 7 to 5
+2026-06-06 16:33:39  [DEBUG   ]  h5py._conv — Creating converter from 5 to 7
+2026-06-06 16:33:39  [DEBUG   ]  h5py._conv — Creating converter from 7 to 5
+2026-06-06 16:33:39  [DEBUG   ]  h5py._conv — Creating converter from 5 to 7
+2026-06-06 16:33:39  [DEBUG   ]  jax._src.path — etils.epath was not found. Using pathlib for file I/O.
+2026-06-06 16:33:41  [DEBUG   ]  matplotlib — matplotlib data path: C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\matplotlib\mpl-data
+2026-06-06 16:33:41  [DEBUG   ]  matplotlib — CONFIGDIR=C:\Users\aryan\.matplotlib
+2026-06-06 16:33:41  [DEBUG   ]  matplotlib — interactive is False
+2026-06-06 16:33:41  [DEBUG   ]  matplotlib — platform is win32
+2026-06-06 16:33:41  [DEBUG   ]  matplotlib — CACHEDIR=C:\Users\aryan\.matplotlib
+2026-06-06 16:33:41  [DEBUG   ]  matplotlib.font_manager — Using fontManager instance from C:\Users\aryan\.matplotlib\fontlist-v390.json
+2026-06-06 16:33:41  [INFO    ]  modules.face_module — [Face] MTCNN detector initialised.
+2026-06-06 16:33:41  [INFO    ]  __main__ — [Main] FaceModule ready.
+2026-06-06 16:33:43  [DEBUG   ]  torio._extension.utils — Loading FFmpeg6
+2026-06-06 16:33:43  [DEBUG   ]  torio._extension.utils — Failed to load FFmpeg6 extension.
+Traceback (most recent call last):
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\_extension\utils.py", line 116, in _find_ffmpeg_extension
+    ext = _find_versionsed_ffmpeg_extension(ffmpeg_ver)
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\_extension\utils.py", line 108, in _find_versionsed_ffmpeg_extension
+    _load_lib(lib)
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\_extension\utils.py", line 94, in _load_lib
+    torch.ops.load_library(path)
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torch\_ops.py", line 1392, in load_library
+    ctypes.CDLL(path)
+  File "C:\Program Files\Python310\lib\ctypes\__init__.py", line 374, in __init__
+    self._handle = _dlopen(self._name, mode)
+FileNotFoundError: Could not find module 'C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\lib\libtorio_ffmpeg6.pyd' (or one of its dependencies). Try using the full path with constructor syntax.
+2026-06-06 16:33:43  [DEBUG   ]  torio._extension.utils — Loading FFmpeg5
+2026-06-06 16:33:43  [DEBUG   ]  torio._extension.utils — Failed to load FFmpeg5 extension.
+Traceback (most recent call last):
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\_extension\utils.py", line 116, in _find_ffmpeg_extension
+    ext = _find_versionsed_ffmpeg_extension(ffmpeg_ver)
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\_extension\utils.py", line 108, in _find_versionsed_ffmpeg_extension
+    _load_lib(lib)
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\_extension\utils.py", line 94, in _load_lib
+    torch.ops.load_library(path)
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torch\_ops.py", line 1392, in load_library
+    ctypes.CDLL(path)
+  File "C:\Program Files\Python310\lib\ctypes\__init__.py", line 374, in __init__
+    self._handle = _dlopen(self._name, mode)
+FileNotFoundError: Could not find module 'C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\lib\libtorio_ffmpeg5.pyd' (or one of its dependencies). Try using the full path with constructor syntax.
+2026-06-06 16:33:43  [DEBUG   ]  torio._extension.utils — Loading FFmpeg4
+2026-06-06 16:33:43  [DEBUG   ]  torio._extension.utils — Failed to load FFmpeg4 extension.
+Traceback (most recent call last):
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\_extension\utils.py", line 116, in _find_ffmpeg_extension
+    ext = _find_versionsed_ffmpeg_extension(ffmpeg_ver)
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\_extension\utils.py", line 108, in _find_versionsed_ffmpeg_extension
+    _load_lib(lib)
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\_extension\utils.py", line 94, in _load_lib
+    torch.ops.load_library(path)
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torch\_ops.py", line 1392, in load_library
+    ctypes.CDLL(path)
+  File "C:\Program Files\Python310\lib\ctypes\__init__.py", line 374, in __init__
+    self._handle = _dlopen(self._name, mode)
+FileNotFoundError: Could not find module 'C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\lib\libtorio_ffmpeg4.pyd' (or one of its dependencies). Try using the full path with constructor syntax.
+2026-06-06 16:33:43  [DEBUG   ]  torio._extension.utils — Loading FFmpeg
+2026-06-06 16:33:43  [DEBUG   ]  torio._extension.utils — Failed to load FFmpeg extension.
+Traceback (most recent call last):
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\_extension\utils.py", line 116, in _find_ffmpeg_extension
+    ext = _find_versionsed_ffmpeg_extension(ffmpeg_ver)
+  File "C:\Users\aryan\AppData\Roaming\Python\Python310\site-packages\torio\_extension\utils.py", line 106, in _find_versionsed_ffmpeg_extension
+    raise RuntimeError(f"FFmpeg{version} extension is not available.")
+RuntimeError: FFmpeg extension is not available.
+2026-06-06 16:33:45  [INFO    ]  speechbrain.utils.quirks — Applied quirks (see `speechbrain.utils.quirks`): [allow_tf32, disable_jit_profiling]
+2026-06-06 16:33:45  [INFO    ]  speechbrain.utils.quirks — Excluded quirks specified by the `SB_DISABLE_QUIRKS` environment (comma-separated list): []
+2026-06-06 16:33:45  [INFO    ]  modules.voice_module — [Voice] Loading ECAPA-TDNN on cuda:0...
+2026-06-06 16:33:45  [INFO    ]  speechbrain.utils.fetching — Fetch hyperparams.yaml: Using symlink found at 'C:\Users\aryan\OneDrive\Desktop\work\full_auth\system_main\data\pretrained_models\spkrec-ecapa-voxceleb\hyperparams.yaml'
+2026-06-06 16:33:45  [INFO    ]  speechbrain.utils.fetching — Fetch embedding_model.ckpt: Using symlink found at 'C:\Users\aryan\OneDrive\Desktop\work\full_auth\system_main\data\pretrained_models\spkrec-ecapa-voxceleb\embedding_model.ckpt'
+2026-06-06 16:33:45  [INFO    ]  speechbrain.utils.fetching — Fetch mean_var_norm_emb.ckpt: Using symlink found at 'C:\Users\aryan\OneDrive\Desktop\work\full_auth\system_main\data\pretrained_models\spkrec-ecapa-voxceleb\mean_var_norm_emb.ckpt'
+2026-06-06 16:33:45  [INFO    ]  speechbrain.utils.fetching — Fetch classifier.ckpt: Using symlink found at 'C:\Users\aryan\OneDrive\Desktop\work\full_auth\system_main\data\pretrained_models\spkrec-ecapa-voxceleb\classifier.ckpt'
+2026-06-06 16:33:45  [INFO    ]  speechbrain.utils.fetching — Fetch label_encoder.txt: Using symlink found at 'C:\Users\aryan\OneDrive\Desktop\work\full_auth\system_main\data\pretrained_models\spkrec-ecapa-voxceleb\label_encoder.ckpt'
+2026-06-06 16:33:45  [INFO    ]  speechbrain.utils.parameter_transfer — Loading pretrained files for: embedding_model, mean_var_norm_emb, classifier, label_encoder
+2026-06-06 16:33:46  [INFO    ]  modules.voice_module — [Voice] Model loaded.
+2026-06-06 16:33:46  [ERROR   ]  __main__ — [Main] VoiceModule failed to load: Voice training directory not found at 'data/voice_dataset/train'. Create sub-folders per speaker and add audio files.
